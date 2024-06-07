@@ -1,3 +1,7 @@
+interface TaskInterface {
+
+}
+
 class Workflow {
     name?: string = ''
 

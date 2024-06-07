@@ -32,7 +32,8 @@ console.log(tree(true))
 
 debug(true)
 
-run('default', { a: 1, b: 2 })
+workflow.run('default', { a: 1, b: 2 })
+// or run('default', { a: 1, b: 2 })
 
 debug(false)
 ```
